@@ -1,0 +1,1512 @@
+{
+  "version": 2,
+  "metadata": {
+    "createdAt": "2026-08-27T02:31:22.390Z",
+    "appVersion": "1.13.1",
+    "pluginCount": 5,
+    "hasSettings": true,
+    "hasKeyBindings": true
+  },
+  "checksum": "37034201",
+  "settings": {
+    "animation": "system",
+    "appTheme": "neon",
+    "autosave": 0,
+    "fileBrowser": {
+      "showHiddenFiles": true,
+      "sortByName": true,
+      "listFiles": true
+    },
+    "formatter": {},
+    "prettier": {},
+    "maxFileSize": 12,
+    "serverPort": 8158,
+    "previewPort": 8158,
+    "showConsoleToggler": true,
+    "previewMode": "inapp",
+    "disableCache": false,
+    "useCurrentFileForPreview": false,
+    "host": "localhost",
+    "search": {
+      "caseSensitive": false,
+      "regExp": false,
+      "wholeWord": false
+    },
+    "lang": "en-US",
+    "uiZoom": 100,
+    "fontSize": "12px",
+    "cursorWidth": 2,
+    "editorTheme": "monokai",
+    "textWrap": true,
+    "softTab": true,
+    "tabSize": 2,
+    "retryRemoteFsAfterFail": true,
+    "linenumbers": true,
+    "formatOnSave": false,
+    "fadeFoldWidgets": false,
+    "autoCorrect": true,
+    "openFileListPos": "header",
+    "quickTools": 2,
+    "quickToolsTriggerMode": "touch",
+    "appFont": "",
+    "editorFont": "Roboto Mono",
+    "vibrateOnTap": true,
+    "fullscreen": false,
+    "floatingButton": false,
+    "liveAutoCompletion": true,
+    "localWordCompletion": true,
+    "autoIndent": true,
+    "codeFolding": true,
+    "autoCloseBrackets": true,
+    "bracketMatching": true,
+    "highlightActiveLine": true,
+    "highlightSelectionMatches": true,
+    "useEditContext": false,
+    "autoCloseTags": true,
+    "autoRenameTags": true,
+    "showPrintMargin": false,
+    "printMargin": 80,
+    "scrollbarSize": 20,
+    "scrollbarHeight": 50,
+    "showSpaces": false,
+    "confirmOnExit": true,
+    "lineHeight": 2,
+    "leftMargin": 50,
+    "checkFiles": true,
+    "checkForAppUpdates": false,
+    "desktopMode": false,
+    "console": "legacy",
+    "keyboardMode": "NO_SUGGESTIONS_AGGRESSIVE",
+    "rememberFiles": true,
+    "rememberFolders": true,
+    "diagonalScrolling": false,
+    "reverseScrolling": false,
+    "scrollSpeed": "NORMAL",
+    "scrollPastEnd": "medium",
+    "customTheme": {
+      "name": "Custom",
+      "type": "dark",
+      "version": "free",
+      "popupBorderRadius": "4px",
+      "activeColor": "rgb(51, 153, 255)",
+      "activeTextColor": "rgb(255, 215, 0)",
+      "activeIconColor": "rgba(0, 0, 0, 0.2)",
+      "borderColor": "rgba(122, 122, 122, 0.2)",
+      "boxShadowColor": "rgba(0, 0, 0, 0.2)",
+      "buttonActiveColor": "rgb(44, 142, 240)",
+      "buttonBackgroundColor": "rgb(51, 153, 255)",
+      "buttonTextColor": "rgb(255, 255, 255)",
+      "errorTextColor": "rgb(255, 185, 92)",
+      "successTextColor": "rgb(22, 152, 44)",
+      "primaryColor": "rgb(153, 153, 255)",
+      "primaryTextColor": "rgb(255, 255, 255)",
+      "secondaryColor": "rgb(255, 255, 255)",
+      "secondaryTextColor": "rgb(37, 37, 37)",
+      "linkTextColor": "rgb(97, 94, 253)",
+      "scrollbarColor": "rgba(0, 0, 0, 0.3)",
+      "popupBorderColor": "rgba(0, 0, 0, 0)",
+      "popupIconColor": "rgb(153, 153, 255)",
+      "popupBackgroundColor": "rgb(255, 255, 255)",
+      "popupTextColor": "rgb(37, 37, 37)",
+      "popupActiveColor": "rgb(169, 0, 0)",
+      "dangerColor": "rgb(160, 51, 0)",
+      "dangerTextColor": "rgb(255, 255, 255)",
+      "fileTabWidth": "120px"
+    },
+    "relativeLineNumbers": false,
+    "elasticTabstops": false,
+    "rtlText": false,
+    "hardWrap": false,
+    "useTextareaForIME": false,
+    "touchMoveThreshold": 0.2,
+    "quicktoolsItems": [
+      2,
+      1,
+      34,
+      3,
+      4,
+      18,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      0,
+      33,
+      21,
+      20,
+      16,
+      19,
+      17,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "excludeFolders": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/jspm_packages/**",
+      "**/.npm/**",
+      "**/flow-typed/**",
+      "**/vendor/**",
+      "**/composer/**",
+      "**/venv/**",
+      "**/.virtualenv/**",
+      "**/__pycache__/**",
+      "**/.pytest_cache/**",
+      "**/.eggs/**",
+      "**/*.egg-info/**",
+      "**/.git/**",
+      "**/.svn/**",
+      "**/.hg/**",
+      "**/.vscode/**",
+      "**/.idea/**",
+      "**/.vs/**",
+      "**/.project/**",
+      "**/.settings/**",
+      "**/.classpath/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/out/**",
+      "**/target/**",
+      "**/bin/**",
+      "**/obj/**",
+      "**/coverage/**",
+      "**/.nyc_output/**",
+      "**/htmlcov/**",
+      "**/temp/**",
+      "**/tmp/**",
+      "**/.cache/**",
+      "**/.gradle/**",
+      "**/logs/**",
+      "**/.sass-cache/**",
+      "**/.DS_Store/**",
+      "**/Thumbs.db/**"
+    ],
+    "defaultFileEncoding": "UTF-8",
+    "inlineAutoCompletion": true,
+    "colorPreview": true,
+    "maxRetryCount": 3,
+    "showRetryToast": false,
+    "showSideButtons": true,
+    "showSponsorSidebarApp": true,
+    "showAnnotations": false,
+    "lintGutter": true,
+    "indentGuides": false,
+    "rainbowBrackets": true,
+    "pluginsDisabled": {
+      "com.arfoxcode.runner_python_node": true
+    },
+    "lsp": {
+      "servers": {},
+      "allowNonTerminalWorkspace": false,
+      "runtime": {
+        "default": "auto",
+        "servers": {},
+        "workspaces": {}
+      }
+    },
+    "developerMode": false,
+    "shiftClickSelection": false,
+    "showShareButton": true,
+    "terminalSettings": {
+      "fontSize": 20,
+      "fontFamily": "MesloLGS NF Regular",
+      "fontWeight": "normal",
+      "cursorBlink": true,
+      "cursorStyle": "block",
+      "cursorInactiveStyle": "outline",
+      "scrollback": 1000,
+      "theme": "dark",
+      "tabStopWidth": 4,
+      "convertEol": true,
+      "letterSpacing": 0,
+      "imageSupport": true,
+      "fontLigatures": false,
+      "confirmTabClose": true,
+      "failsafeMode": true,
+      "touchSelectionTapHoldDuration": 600,
+      "touchSelectionMoveThreshold": 8,
+      "touchSelectionHandleSize": 24,
+      "touchSelectionHapticFeedback": true,
+      "touchSelectionShowContextMenu": true
+    },
+    "bajrangcoder.acodex": {
+      "port": 8767,
+      "serverHost": "localhost",
+      "terminalBackend": "builtin",
+      "aiApiKey": "",
+      "aiModel": "deepseek",
+      "transparency": true,
+      "selectionHaptics": true,
+      "fontLigatures": true,
+      "enableGuiViewer": true,
+      "imageRendering": false,
+      "showTerminalBtnSize": 35,
+      "showTerminalBtn": true,
+      "blurValue": "4px",
+      "cursorBlink": true,
+      "cursorStyle": "block",
+      "cursorInactiveStyle": "outline",
+      "fontSize": 14,
+      "fontFamily": "MesloLGS NF Regular",
+      "letterSpacing": 0,
+      "terminalPadding": 0,
+      "fontWeight": "normal",
+      "customFontStyleSheet": "",
+      "scrollBack": 1000,
+      "scrollSensitivity": 1000,
+      "theme": "catppuccin",
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "cursor": "#f5e0dc",
+      "cursorAccent": "#1e1e2e",
+      "selectionBackground": "#585b70",
+      "black": "#45475a",
+      "blue": "#89b4fa",
+      "brightBlack": "#585b70",
+      "brightBlue": "#89b4fa",
+      "brightCyan": "#94e2d5",
+      "brightGreen": "#a6e3a1",
+      "brightMagenta": "#f5c2e7",
+      "brightRed": "#f38ba8",
+      "brightWhite": "#a6adc8",
+      "brightYellow": "#f9e2af",
+      "cyan": "#94e2d5",
+      "green": "#a6e3a1",
+      "magenta": "#f5c2e7",
+      "red": "#f38ba8",
+      "white": "#bac2de",
+      "yellow": "#f9e2af"
+    },
+    "languageCompletion": true,
+    "recommendExtensions": true,
+    "useEmmet": true,
+    "useFileOperationExclusions": true,
+    "thunder.plugin.terminal.quick_button": {
+      "terminalOpen": "Header icon"
+    },
+    "acode.plugin.github": {
+      "askCommitMessage": true
+    }
+  },
+  "keyBindings": {
+    "addCursorAbove": {
+      "description": "Add Cursor Above",
+      "key": "Ctrl-Alt-ArrowUp",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "addCursorBelow": {
+      "description": "Add Cursor Below",
+      "key": "Ctrl-Alt-ArrowDown",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "changeAppTheme": {
+      "description": "Change app theme",
+      "key": null,
+      "readOnly": true,
+      "action": "change-app-theme"
+    },
+    "changeEditorTheme": {
+      "description": "Change editor theme",
+      "key": null,
+      "readOnly": true,
+      "action": "change-editor-theme"
+    },
+    "closeAllTabs": {
+      "description": "Close all tabs.",
+      "key": "Ctrl-Shift-Q",
+      "readOnly": false,
+      "action": "close-all-tabs"
+    },
+    "closeCurrentTab": {
+      "description": "Close current tab.",
+      "key": "Ctrl-Q",
+      "readOnly": false,
+      "action": "close-current-tab"
+    },
+    "closeOtherTabs": {
+      "description": "Close other tabs.",
+      "key": null,
+      "readOnly": false,
+      "action": "close-other-tabs"
+    },
+    "closeTabsToLeft": {
+      "description": "Close tabs to the left.",
+      "key": null,
+      "readOnly": false,
+      "action": "close-tabs-to-left"
+    },
+    "closeTabsToRight": {
+      "description": "Close tabs to the right.",
+      "key": null,
+      "readOnly": false,
+      "action": "close-tabs-to-right"
+    },
+    "comment": {
+      "description": "Add line comment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "copy": {
+      "description": "Copy",
+      "key": "Ctrl-C",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "copyDeviceInfo": {
+      "description": "Copy device info",
+      "key": null,
+      "readOnly": true,
+      "action": "copy-device-info"
+    },
+    "copyLineDown": {
+      "description": "Copy Line Down",
+      "key": "Alt-Shift-ArrowDown",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "copylinesdown": {
+      "description": "Copy lines down",
+      "key": "Alt-Shift-Down",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "copylinesup": {
+      "description": "Copy lines up",
+      "key": "Alt-Shift-Up",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "copyLineUp": {
+      "description": "Copy Line Up",
+      "key": "Alt-Shift-ArrowUp",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "cursorCharLeft": {
+      "description": "Cursor Char Left",
+      "key": "ArrowLeft|Ctrl-b",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorCharRight": {
+      "description": "Cursor Char Right",
+      "key": "ArrowRight|Ctrl-f",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorDocEnd": {
+      "description": "Cursor Doc End",
+      "key": "Cmd-ArrowDown|Ctrl-End",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorDocStart": {
+      "description": "Cursor Doc Start",
+      "key": "Cmd-ArrowUp|Ctrl-Home",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorGroupLeft": {
+      "description": "Cursor Group Left",
+      "key": "Alt-ArrowLeft|Ctrl-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorGroupRight": {
+      "description": "Cursor Group Right",
+      "key": "Alt-ArrowRight|Ctrl-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineBoundaryBackward": {
+      "description": "Cursor Line Boundary Backward",
+      "key": "Home",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineBoundaryForward": {
+      "description": "Cursor Line Boundary Forward",
+      "key": "End",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineBoundaryLeft": {
+      "description": "Cursor Line Boundary Left",
+      "key": "Cmd-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineBoundaryRight": {
+      "description": "Cursor Line Boundary Right",
+      "key": "Cmd-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineDown": {
+      "description": "Cursor Line Down",
+      "key": "ArrowDown|Ctrl-n",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineEnd": {
+      "description": "Cursor Line End",
+      "key": "Ctrl-e",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineStart": {
+      "description": "Cursor Line Start",
+      "key": "Ctrl-a",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorLineUp": {
+      "description": "Cursor Line Up",
+      "key": "ArrowUp|Ctrl-p",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorMatchingBracket": {
+      "description": "Cursor Matching Bracket",
+      "key": "Ctrl-Shift-\\",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorPageDown": {
+      "description": "Cursor Page Down",
+      "key": "Ctrl-ArrowDown|Ctrl-v|PageDown",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorPageUp": {
+      "description": "Cursor Page Up",
+      "key": "Ctrl-ArrowUp|PageUp",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorSyntaxLeft": {
+      "description": "Cursor Syntax Left",
+      "key": "Alt-ArrowLeft|Ctrl-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorSyntaxRight": {
+      "description": "Cursor Syntax Right",
+      "key": "Alt-ArrowRight|Ctrl-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cut": {
+      "description": "Cut",
+      "key": "Ctrl-X",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "decreaseFontSize": {
+      "description": "Decrease editor font size",
+      "key": "Ctrl--",
+      "readOnly": true
+    },
+    "deleteCharBackward": {
+      "description": "Delete Char Backward",
+      "key": "Backspace|Ctrl-h|Shift-Backspace",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteCharForward": {
+      "description": "Delete Char Forward",
+      "key": "Ctrl-d|Delete",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteGroupBackward": {
+      "description": "Delete Group Backward",
+      "key": "Alt-Backspace|Ctrl-Alt-h|Ctrl-Backspace",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteGroupForward": {
+      "description": "Delete Group Forward",
+      "key": "Alt-Delete|Ctrl-Delete",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteLine": {
+      "description": "Delete Line",
+      "key": "Ctrl-Shift-k",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteLineBoundaryBackward": {
+      "description": "Delete Line Boundary Backward",
+      "key": "Cmd-Backspace",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteLineBoundaryForward": {
+      "description": "Delete Line Boundary Forward",
+      "key": "Cmd-Delete",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deletetolineend": {
+      "description": "Delete to line end",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteToLineEnd": {
+      "description": "Delete To Line End",
+      "key": "Ctrl-k",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deletetolinestart": {
+      "description": "Delete to line start",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "documentSymbols": {
+      "description": "Go to symbol in document",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "duplicateSelection": {
+      "description": "Duplicate selection",
+      "key": "Ctrl-Shift-D",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "find": {
+      "description": "Find",
+      "key": "Ctrl-F",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "findFile": {
+      "description": "Find a file",
+      "key": "Ctrl-P",
+      "readOnly": true,
+      "action": "find-file"
+    },
+    "focusEditor": {
+      "description": "Focus editor",
+      "key": "Ctrl-1",
+      "readOnly": false
+    },
+    "formatCode": {
+      "description": "Format Code",
+      "key": "Ctrl-Alt-F",
+      "readOnly": false,
+      "editorOnly": true,
+      "action": "format"
+    },
+    "gotoline": {
+      "description": "Go to line",
+      "key": "Ctrl-G",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "increaseFontSize": {
+      "description": "Increase editor font size",
+      "key": "Ctrl-+|Ctrl-=",
+      "readOnly": true
+    },
+    "indent": {
+      "description": "Indent",
+      "key": "Tab",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "indentLess": {
+      "description": "Indent Less",
+      "key": "Ctrl-[|Shift-Tab",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "indentMore": {
+      "description": "Indent More",
+      "key": "Ctrl-]|Tab",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "indentselection": {
+      "description": "Indent selection",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "indentSelection": {
+      "description": "Indent Selection",
+      "key": "Ctrl-Alt-\\",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertBlankLine": {
+      "description": "Insert Blank Line",
+      "key": "Ctrl-Enter",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertlineafter": {
+      "description": "Insert line after",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertNewlineAndIndent": {
+      "description": "Insert Newline And Indent",
+      "key": "Enter|Shift-Enter",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "joinlines": {
+      "description": "Join lines",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "modeSelect": {
+      "description": "Change language mode",
+      "key": "Ctrl-M",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "moveLineDown": {
+      "description": "Move Line Down",
+      "key": "Alt-ArrowDown",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "movelinesdown": {
+      "description": "Move lines down",
+      "key": "Alt-Down",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "movelinesup": {
+      "description": "Move lines up",
+      "key": "Alt-Up",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "moveLineUp": {
+      "description": "Move Line Up",
+      "key": "Alt-ArrowUp",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "newFile": {
+      "description": "Create new file",
+      "key": "Ctrl-N",
+      "readOnly": true,
+      "action": "new-file"
+    },
+    "newline": {
+      "description": "Insert newline",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "nextFile": {
+      "description": "Open next file tab",
+      "key": "Ctrl-Tab",
+      "readOnly": true,
+      "action": "next-file"
+    },
+    "openCommandPalette": {
+      "description": "Open command palette",
+      "key": "Ctrl-Shift-P",
+      "readOnly": true
+    },
+    "openFile": {
+      "description": "Open a file",
+      "key": "Ctrl-O",
+      "readOnly": true,
+      "action": "open-file"
+    },
+    "openFileExplorer": {
+      "description": "Open file explorer",
+      "key": null,
+      "readOnly": true
+    },
+    "openFolder": {
+      "description": "Open a folder",
+      "key": "Ctrl-Shift-O",
+      "readOnly": true,
+      "action": "open-folder"
+    },
+    "openInAppBrowser": {
+      "description": "Open in-app browser",
+      "key": null,
+      "readOnly": true
+    },
+    "openLogFile": {
+      "description": "Open log file",
+      "key": null,
+      "readOnly": true,
+      "action": "open-log-file"
+    },
+    "openPluginsPage": {
+      "description": "Open plugins page",
+      "key": null,
+      "readOnly": true
+    },
+    "openTerminal": {
+      "description": "Open terminal",
+      "key": "Ctrl-`",
+      "readOnly": true,
+      "action": "new-terminal"
+    },
+    "outdent": {
+      "description": "Outdent",
+      "key": "Shift-Tab",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "paste": {
+      "description": "Paste",
+      "key": "Ctrl-V",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "prevFile": {
+      "description": "Open previous file tab",
+      "key": "Ctrl-Shift-Tab",
+      "readOnly": true,
+      "action": "prev-file"
+    },
+    "problems": {
+      "description": "Show problems",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "redo": {
+      "description": "Redo",
+      "key": "Ctrl-Shift-Z|Ctrl-Y",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "redoSelection": {
+      "description": "Redo Selection",
+      "key": "Alt-u|Shift-Cmd-u",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "removeline": {
+      "description": "Remove line",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "renameFile": {
+      "description": "Rename current file",
+      "key": "F2",
+      "readOnly": true,
+      "editorOnly": true,
+      "action": "rename"
+    },
+    "replace": {
+      "description": "Replace",
+      "key": "Ctrl-R",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "run": {
+      "description": "Run current file",
+      "key": "F5",
+      "readOnly": false,
+      "editorOnly": true,
+      "action": "run"
+    },
+    "saveAllChanges": {
+      "description": "Save all changes",
+      "key": null,
+      "readOnly": true,
+      "action": "save-all-changes"
+    },
+    "saveFile": {
+      "description": "Save current file",
+      "key": "Ctrl-S",
+      "readOnly": true,
+      "editorOnly": true,
+      "action": "save"
+    },
+    "saveFileAs": {
+      "description": "Save as current file",
+      "key": "Ctrl-Shift-S",
+      "readOnly": true,
+      "editorOnly": true,
+      "action": "save-as"
+    },
+    "selectall": {
+      "description": "Select all",
+      "key": "Ctrl-A",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectAll": {
+      "description": "Select All",
+      "key": "Ctrl-a",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectCharLeft": {
+      "description": "Select Char Left",
+      "key": "Ctrl-Shift-b|Shift-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectCharRight": {
+      "description": "Select Char Right",
+      "key": "Ctrl-Shift-f|Shift-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectDocEnd": {
+      "description": "Select Doc End",
+      "key": "Ctrl-Shift-End|Shift-Cmd-ArrowDown",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectDocStart": {
+      "description": "Select Doc Start",
+      "key": "Ctrl-Shift-Home|Shift-Cmd-ArrowUp",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectGroupLeft": {
+      "description": "Select Group Left",
+      "key": "Alt-Shift-ArrowLeft|Ctrl-Shift-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectGroupRight": {
+      "description": "Select Group Right",
+      "key": "Alt-Shift-ArrowRight|Ctrl-Shift-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectline": {
+      "description": "Select line",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLine": {
+      "description": "Select Line",
+      "key": "Alt-l|Ctrl-l",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineBoundaryBackward": {
+      "description": "Select Line Boundary Backward",
+      "key": "Shift-Home",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineBoundaryForward": {
+      "description": "Select Line Boundary Forward",
+      "key": "Shift-End",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineBoundaryLeft": {
+      "description": "Select Line Boundary Left",
+      "key": "Shift-Cmd-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineBoundaryRight": {
+      "description": "Select Line Boundary Right",
+      "key": "Shift-Cmd-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineDown": {
+      "description": "Select Line Down",
+      "key": "Ctrl-Shift-n|Shift-ArrowDown",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectlineend": {
+      "description": "Select line end",
+      "key": "Shift-End",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineEnd": {
+      "description": "Select Line End",
+      "key": "Ctrl-Shift-e",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectlinesdown": {
+      "description": "Select lines down",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectlinestart": {
+      "description": "Select line start",
+      "key": "Shift-Home",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineStart": {
+      "description": "Select Line Start",
+      "key": "Ctrl-Shift-a",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectlinesup": {
+      "description": "Select lines up",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectLineUp": {
+      "description": "Select Line Up",
+      "key": "Ctrl-Shift-p|Shift-ArrowUp",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectPageDown": {
+      "description": "Select Page Down",
+      "key": "Ctrl-Shift-ArrowDown|Shift-PageDown",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectPageUp": {
+      "description": "Select Page Up",
+      "key": "Ctrl-Shift-ArrowUp|Shift-PageUp",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectParentSyntax": {
+      "description": "Select Parent Syntax",
+      "key": "Ctrl-i",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectSyntaxLeft": {
+      "description": "Select Syntax Left",
+      "key": "Alt-Shift-ArrowLeft|Ctrl-Shift-ArrowLeft",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectSyntaxRight": {
+      "description": "Select Syntax Right",
+      "key": "Alt-Shift-ArrowRight|Ctrl-Shift-ArrowRight",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectWord": {
+      "description": "Select current word",
+      "key": "Ctrl-D",
+      "readOnly": false,
+      "editorOnly": true,
+      "action": "select-word"
+    },
+    "showSettingsMenu": {
+      "description": "Show settings menu",
+      "key": "Ctrl-,",
+      "readOnly": false
+    },
+    "simplifySelection": {
+      "description": "Simplify selection",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "splitLine": {
+      "description": "Split Line",
+      "key": "Ctrl-o",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "toggleBlockComment": {
+      "description": "Toggle block comment",
+      "key": "Ctrl-Shift-/",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "togglecomment": {
+      "description": "Toggle comment",
+      "key": "Ctrl-/",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "toggleComment": {
+      "description": "Toggle Comment",
+      "key": "Ctrl-/",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "toggleEditMenu": {
+      "description": "Toggle edit menu",
+      "key": "F4",
+      "readOnly": true,
+      "action": "toggle-editmenu"
+    },
+    "toggleFullscreen": {
+      "description": "Toggle full screen mode",
+      "key": "F11",
+      "readOnly": false,
+      "action": "toggle-fullscreen"
+    },
+    "toggleMenu": {
+      "description": "Toggle menu",
+      "key": "F3",
+      "readOnly": true,
+      "action": "toggle-menu"
+    },
+    "toggleQuickTools": {
+      "description": "Toggle quick tools",
+      "key": null,
+      "readOnly": true
+    },
+    "toggleSidebar": {
+      "description": "Toggle sidebar",
+      "key": "Ctrl-B",
+      "readOnly": true,
+      "action": "toggle-sidebar"
+    },
+    "toggleTabFocusMode": {
+      "description": "Toggle Tab Focus Mode",
+      "key": "Alt-Shift-m|Ctrl-m",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "transposeChars": {
+      "description": "Transpose Chars",
+      "key": "Ctrl-t",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "uncomment": {
+      "description": "Remove line comment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "undo": {
+      "description": "Undo",
+      "key": "Ctrl-Z",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "undoSelection": {
+      "description": "Undo Selection",
+      "key": "Ctrl-u",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "blockComment": {
+      "description": "Block Comment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "blockUncomment": {
+      "description": "Block Uncomment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "closePane": {
+      "description": "Close active editor pane",
+      "key": "Ctrl-Alt-W",
+      "readOnly": true,
+      "action": "close-pane"
+    },
+    "cursorCharBackward": {
+      "description": "Cursor Char Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorCharBackwardLogical": {
+      "description": "Cursor Char Backward Logical",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorCharForward": {
+      "description": "Cursor Char Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorCharForwardLogical": {
+      "description": "Cursor Char Forward Logical",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorGroupBackward": {
+      "description": "Cursor Group Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorGroupForward": {
+      "description": "Cursor Group Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorGroupForwardWin": {
+      "description": "Cursor Group Forward Win",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorSubwordBackward": {
+      "description": "Cursor Subword Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "cursorSubwordForward": {
+      "description": "Cursor Subword Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "deleteCharBackwardStrict": {
+      "description": "Delete Char Backward Strict",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteGroupForwardWin": {
+      "description": "Delete Group Forward Win",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteToLineStart": {
+      "description": "Delete To Line Start",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "deleteTrailingWhitespace": {
+      "description": "Delete trailing whitespace",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "findReferences": {
+      "description": "Find all references (Language Server)",
+      "key": "Shift-F12",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "focusNextPane": {
+      "description": "Focus next editor pane",
+      "key": null,
+      "readOnly": true,
+      "action": "focus-next-pane"
+    },
+    "focusPaneDown": {
+      "description": "Focus editor pane below",
+      "key": "Ctrl-Alt-Down",
+      "readOnly": true,
+      "action": "focus-pane-down"
+    },
+    "focusPaneLeft": {
+      "description": "Focus editor pane to the left",
+      "key": "Ctrl-Alt-Left",
+      "readOnly": true,
+      "action": "focus-pane-left"
+    },
+    "focusPaneRight": {
+      "description": "Focus editor pane to the right",
+      "key": "Ctrl-Alt-Right",
+      "readOnly": true,
+      "action": "focus-pane-right"
+    },
+    "focusPaneUp": {
+      "description": "Focus editor pane above",
+      "key": "Ctrl-Alt-Up",
+      "readOnly": true,
+      "action": "focus-pane-up"
+    },
+    "focusPreviousPane": {
+      "description": "Focus previous editor pane",
+      "key": null,
+      "readOnly": true,
+      "action": "focus-previous-pane"
+    },
+    "foldAll": {
+      "description": "Fold all - top-level ranges usually depends on the syntax tree. It may not work reliably if the document isn't fully parsed (e.g., just initialized or too large to parse completely)",
+      "key": "Ctrl-Alt-[",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "foldCode": {
+      "description": "Fold code",
+      "key": "Ctrl-Shift-[",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "formatDocument": {
+      "description": "Format document (Language Server)",
+      "key": "Alt-Shift-F",
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertNewline": {
+      "description": "Insert Newline",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertNewlineKeepIndent": {
+      "description": "Insert Newline Keep Indent",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "insertTab": {
+      "description": "Insert Tab",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "jumpToDefinition": {
+      "description": "Go to definition (Language Server)",
+      "key": "F12",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "lineComment": {
+      "description": "Line Comment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "lineUncomment": {
+      "description": "Line Uncomment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "moveTabToNewPane": {
+      "description": "Move current tab to new pane",
+      "key": "Ctrl-Alt-\\",
+      "readOnly": true,
+      "action": "move-tab-to-new-pane"
+    },
+    "nextDiagnostic": {
+      "description": "Go to next diagnostic",
+      "key": "F8",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "nextFileHistory": {
+      "description": "Open next file tab from history",
+      "key": null,
+      "readOnly": true,
+      "action": "next-file-history"
+    },
+    "nextSignature": {
+      "description": "Next signature",
+      "key": "Ctrl-Shift-Down",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "prevFileHistory": {
+      "description": "Open previous file tab from history",
+      "key": null,
+      "readOnly": true,
+      "action": "prev-file-history"
+    },
+    "previousDiagnostic": {
+      "description": "Go to previous diagnostic",
+      "key": "Shift-F8",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "prevSignature": {
+      "description": "Previous signature",
+      "key": "Ctrl-Shift-Up",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "renameSymbol": {
+      "description": "Rename symbol (Language Server)",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "selectCharBackward": {
+      "description": "Select Char Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectCharBackwardLogical": {
+      "description": "Select Char Backward Logical",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectCharForward": {
+      "description": "Select Char Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectCharForwardLogical": {
+      "description": "Select Char Forward Logical",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectGroupBackward": {
+      "description": "Select Group Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectGroupForward": {
+      "description": "Select Group Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectGroupForwardWin": {
+      "description": "Select Group Forward Win",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectMatchingBracket": {
+      "description": "Select Matching Bracket",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectSubwordBackward": {
+      "description": "Select Subword Backward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "selectSubwordForward": {
+      "description": "Select Subword Forward",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "showSignatureHelp": {
+      "description": "Show signature help",
+      "key": "Ctrl-Shift-Space",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "splitPaneDown": {
+      "description": "Split editor pane down",
+      "key": "Ctrl-Shift-\\",
+      "readOnly": true,
+      "action": "split-pane-down"
+    },
+    "splitPaneRight": {
+      "description": "Split editor pane right",
+      "key": "Ctrl-\\",
+      "readOnly": true,
+      "action": "split-pane-right"
+    },
+    "temporarilySetTabFocusMode": {
+      "description": "Temporarily Set Tab Focus Mode",
+      "key": null,
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "toggleBlockCommentByLine": {
+      "description": "Toggle Block Comment By Line",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "toggleLineComment": {
+      "description": "Toggle Line Comment",
+      "key": null,
+      "readOnly": false,
+      "editorOnly": true
+    },
+    "unfoldAll": {
+      "description": "Unfold all folded code",
+      "key": "Ctrl-Alt-]",
+      "readOnly": true,
+      "editorOnly": true
+    },
+    "unfoldCode": {
+      "description": "Unfold code",
+      "key": "Ctrl-Shift-]",
+      "readOnly": true,
+      "editorOnly": true
+    }
+  },
+  "installedPlugins": [
+    "acode.plugin.python",
+    "dev.rugved.githubmanager",
+    "com.arfoxcode.runner_python_node",
+    "acode.plugin.github",
+    "bajrangcoder.acodex"
+  ],
+  "pluginDetails": [
+    {
+      "id": "acode.plugin.python",
+      "name": "Python",
+      "version": "1.1.4",
+      "source": null
+    },
+    {
+      "id": "dev.rugved.githubmanager",
+      "name": "Github Manager",
+      "version": "1.2.3",
+      "source": null
+    },
+    {
+      "id": "com.arfoxcode.runner_python_node",
+      "name": "Runner Kode",
+      "version": "0.5.2",
+      "source": null
+    },
+    {
+      "id": "acode.plugin.github",
+      "name": "Github",
+      "version": "2.0.0",
+      "source": null
+    },
+    {
+      "id": "bajrangcoder.acodex",
+      "name": "AcodeX - Terminal",
+      "version": "3.3.0",
+      "source": null
+    }
+  ]
+}

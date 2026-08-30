@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Code Display</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-top: 0;
+      color: #1a202c;
+    }
+
+    p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    .code-container {
+      position: relative;
+      margin-top: 20px;
+    }
+
+    pre {
+      margin: 0;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: "Fira Code", Consolas, Monaco, "Andale Mono", monospace;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: background-color 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Displaying Python in HTML</h1>
+  <p>This example uses the semantic <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags along with <strong>Highlight.js</strong> to format and highlight Python syntax.</p>
+
+  <div class="code-container">
+    <button class="copy-btn" onclick="copyCode()">Copy</button>
+    <pre><code class="language-python" id="python-code"># Define a simple function to check for prime numbers
+def is_prime(n: int) -> bool:
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Generate primes up to 20
+primes = [num for num in range(20) if is_prime(num)]
+print(f"Prime numbers under 20: {primes}")
+</code></pre>
+  </div>
+</div>
+
+<script>
+  // Initialize syntax highlighting
+  hljs.highlightAll();
+
+  // Simple copy-to-clipboard functionality
+  function copyCode() {
+    const codeText = document.getElementById("python-code").innerText;
+    navigator.clipboard.writeText(codeText).then(() => {
+      const btn = document.querySelector(".copy-btn");
+      btn.textContent = "Copied!";
+      setTimeout

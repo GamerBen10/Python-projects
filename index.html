@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+    <h1>Browser Python App</h1>
+    <button id="run-btn">Run Analysis</button>
+    <div id="output"></div>
+
+    <script type="py">
+        from pyscript import document
+
+        def run_script(event):
+            output = document.querySelector("#output")
+            output.innerText = "Python executed successfully inside the browser!"
+
+        document.querySelector("#run-btn").onclick = run_script
+
+      
+
+
+
+
+      
+    </script>
+</body>
+</html>
