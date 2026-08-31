@@ -18,9 +18,9 @@ def get_lowercase_words(S):
       if (words[ct].islower()==True):
          l_words.append(words[ct])
          lword_ct += 1
-      
+   print(l_words)
    return(l_words)   
 
-globalset_lowercase_words("hello GOOD world")))
+get_lowercase_words("hello GOOD world")
 
-print(answer)
+
