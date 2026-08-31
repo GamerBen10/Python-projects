@@ -1,19 +1,15 @@
 def digits_or_letters(s):
+    nct = 0
+    lct = 0
 
-   nct = 0
-   lct = 0
-   ln = len(s)
-   print(ln)
-  
-   for x in range(ln):
-      print(x)
-      if s.isdigit():  # True
-         nct+=1
-   else:
-      if s.isalpha(): # True
-         lct+=1
-   print (nct, lct)
-   return s
+    for char in s:
+        if char.isdigit():
+            nct += 1
+        elif char.isalpha():
+            lct += 1
 
-digits_or_letters("AbC123")
+    print(f"Digits: {nct}, Letters: {lct}")
+    return nct, lct
 
+
+digits_or_letters("AbC123")  # Output: Digits: 3, Letters: 3
