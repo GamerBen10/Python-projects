@@ -8,9 +8,9 @@ def get_lowercase_words(S):
    word_num = len(words)
    lword_ct = 0 
 
-   print(words)
-   print("# of chsracters ",s_letters)
-   print("# of words: ",word_num)
+ #  print(words)
+ #  print("# of chsracters ",s_letters)
+ #  print("# of words: ",word_num)
 
 
    lword_ct = 0
@@ -19,6 +19,7 @@ def get_lowercase_words(S):
          l_words.append(words[ct])
          lword_ct += 1
    print(l_words)
+   print(type(l_words))
    return(l_words)   
 
 get_lowercase_words("hello GOOD world")
