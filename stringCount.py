@@ -1,3 +1,4 @@
+#43
 def digits_or_letters(s):
     nct = 0
     lct = 0
@@ -12,4 +13,4 @@ def digits_or_letters(s):
     return nct, lct
 
 
-digits_or_letters("AbC123")  # Output: Digits: 3, Letters: 3
+digits_or_letters("AbC$123")  # Output: Digits: 3, Letters: 3
