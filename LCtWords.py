@@ -10,7 +10,12 @@ def get_lowercase_words(S):
 
 
 print(get_lowercase_words("hello GOOD world"))
-print(eet_lowercase_words("these are all lowercase"))
+
+print(get_lowercase_words("these are all lower caae"))
+
+
+
+
 
 """
 get_lowercase_words("less is NoT more")
