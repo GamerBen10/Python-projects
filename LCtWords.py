@@ -12,13 +12,14 @@ print(words)
 print("# of chsracters ",s_letters)
 print("# of words: ",word_num)
 
-
+"""
 lword_ct = 0
 for ct in range(word_num):
     if (words[ct].islower()==True):
        l_words += words[ct]
        lword_ct += 1
       
-print(l_words)      
+print(l_words)    
+"""
 
 
