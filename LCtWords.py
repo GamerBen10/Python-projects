@@ -10,8 +10,10 @@ def get_lowercase_words(S):
 
 
 print(get_lowercase_words("hello GOOD world"))
+gprint(et_lowercase_words("these are all lowercase")
+
+
 """
-get_lowercase_words("these are all lowercase")
 get_lowercase_words("less is NoT more")
 get_lowercase_words("DonT eat pizza every OTHER day")
 get_lowercase_words("the Super quick AND snEaky brown fox Leapt anD jumped over aNd AROUND the lazy SloW dog")
