@@ -1,4 +1,4 @@
-#43
+43
 def digits_or_letters(s):
     nct = 0
     lct = 0
@@ -10,7 +10,8 @@ def digits_or_letters(s):
             lct += 1
 
     print(f"Digits: {nct}, Letters: {lct}")
-    return nct, lct
+    if (lct==nct):
+       print ("tie")
 
 
-digits_or_letters("AbC$123")  # Output: Digits: 3, Letters: 3
+digits_or_letters("AbC123")  # Output: Digits: 3, Letters: 3
