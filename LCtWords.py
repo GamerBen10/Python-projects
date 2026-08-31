@@ -21,7 +21,6 @@ def get_lowercase_words(S):
       
    return(l_words)   
 
-instring=("hello GOOD world")
-answer=(get_lowercase_words(instring))
+globalset_lowercase_words("hello GOOD world")))
 
 print(answer)
