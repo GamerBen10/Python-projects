@@ -1,27 +1,21 @@
 
 #330
 def get_lowercase_words(S):
-
-   s_letters=(len(S))
-   l_words = []
-   words = S.split()
-   word_num = len(words)
-   lword_ct = 0 
-
- #  print(words)
- #  print("# of chsracters ",s_letters)
- #  print("# of words: ",word_num)
+    l_words = []
+    for word in S.split():
+        if word.islower():
+            l_words.append(word)
+          
+    return " ".join(l_words)
 
 
-   lword_ct = 0
-   for ct in range(word_num):
-      if (words[ct].islower()==True):
-         l_words.append(words[ct])
-         lword_ct += 1
-   print(l_words)
-   print(type(l_words))
-   return(l_words)   
+print(get_lowercase_words("hello GOOD world"))
+"""
+get_lowercase_words("these are all lowercase")
+get_lowercase_words("less is NoT more")
+get_lowercase_words("DonT eat pizza every OTHER day")
+get_lowercase_words("the Super quick AND snEaky brown fox Leapt anD jumped over aNd AROUND the lazy SloW dog")
 
 get_lowercase_words("hello GOOD world")
-
+"""
 
