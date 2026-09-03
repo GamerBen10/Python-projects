@@ -11,8 +11,9 @@ not_odd_ct = 0
 for index in range (word_count):
    word_len = len(words[index])
    not_odd = bool(word_len % 2)
-   if not_odd: not_oddt_odd_ct +=1
+   if not_odd: 
+      not_odd_ct +=1
   
-   print("word: ",words[index],"  length: ",word_len," Odd: ",odd)
+   print("word: ",words[index],"  length: ",word_len," Odd: ",not_odd)
 print("")
-print("number of odd wirds i",odd_ct)
+print("number of odd words i",not_odd_ct)
