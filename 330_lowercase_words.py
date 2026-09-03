@@ -7,4 +7,5 @@ word_count = len(words)
 
 for index in range (word_count):
    word_len = len(words[index]) 
-   print(words[index], word_len)  # Output: 5
+   print("word: ",words[index],"  length: ",word_len)  
+  
