@@ -7,13 +7,15 @@ def bsearch(numz,num):
 
   
   length = len(numz)
-  midz = length // 2
-  print(numz, length, midz)
-  print(numz[midz])
+  midz = length // 2 -1
   
+  print(numz)
+  print(midz)
+  if numz[midz]==num:
+    print("bibgo")
   
-numz = [4,8,15,16,37,
-        34,42,46,50,55]  
-num = 7
+numz = [4,8,15,16,34,
+        37,42,46,50,55]  
+num = 34
 
 bsearch(numz, num)
