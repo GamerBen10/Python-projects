@@ -16,4 +16,4 @@ for index in range (word_count):
   
    print("word: ",words[index],"  length: ",word_len," Odd: ",not_odd)
 print("")
-print("number of odd words i",not_odd_ct)
+print("number of odd words is",not_odd_ct)
