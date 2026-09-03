@@ -1,14 +1,13 @@
 def convertIt(stdtime):
    ampm=(stdtime[-2:])
    hrs=int(stdtime[:2])
-  
-   print(type(hrs))
+   
+   print(stdtime)
    print(ampm)
-   print(hrs)
+   if ampm == "PM":
+     print(12+hrs)
   
    
 convertIt("04:00 PM")
 
 
-
-@
