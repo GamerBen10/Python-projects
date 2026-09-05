@@ -1,9 +1,7 @@
 def decode_morse(code):
 
-def char_to_morse(char: str) 
-
-    match char.upper():
-        case "A":
+    match code.upper():
+        case "A" :
             return ".-"
         case "B":
             return "-..."
@@ -60,3 +58,7 @@ def char_to_morse(char: str)
         case _:
             return "?"  # Unknown
     return code
+
+print(decode_morse("a"))
+
+      
