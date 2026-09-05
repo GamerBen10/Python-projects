@@ -59,6 +59,11 @@ def decode_morse(code):
             return "?"  # Unknown
     return code
 
-print(decode_morse("a"))
+print(decode_morse("s"))
+print(decode_morse("o"))
+print(decode_morse("s"))
+
+
+
 
       
