@@ -1,69 +1,75 @@
 def decode_morse(code):
+    encoded_words = []
 
-    match code.upper():
-        case "A" :
-            return ".-"
-        case "B":
-            return "-..."
-        case "C":
-            return "-.-."
-        case "D":
-            return "-.."
-        case "E":
-            return "."
-        case "F":
-            return "..-."
-        case "G":
-            return "--."
-        case "H":
-            return "...."
-        case "I":
-            return ".."
-        case "J":
-            return ".---"
-        case "K":
-            return "-.-"
-        case "L":
-            return ".-.."
-        case "M":
-            return "--"
-        case "N":
-            return "-."
-        case "O":
-            return "---"
-        case "P":
-            return ".--."
-        case "Q":
-            return "--.-"
-        case "R":
-            return ".-."
-        case "S":
-            return "..."
-        case "T":
-            return "-"
-        case "U":
-            return "..-"
-        case "V":
-            return "...-"
-        case "W":
-            return ".--"
-        case "X":
-            return "-..-"
-        case "Y":
-            return "-.--"
-        case "Z":
-            return "--.."
-        case " ":
-            return "/"  # Word separator
-        case _:
-            return "?"  # Unknown
-    return code
+    # Split input by words
+    for wordz in code.split():
+        encoded_letters = []
 
-print(decode_morse("s"))
-print(decode_morse("o"))
-print(decode_morse("s"))
+        for letterz in wordz:
+            match letterz.upper():
+                case "A":
+                    morse = ".-"
+                case "B":
+                    morse = "-..."
+                case "C":
+                    morse = "-.-."
+                case "D":
+                    morse = "-.."
+                case "E":
+                    morse = "."
+                case "F":
+                    morse = "..-."
+                case "G":
+                    morse = "--."
+                case "H":
+                    morse = "...."
+                case "I":
+                    morse = ".."
+                case "J":
+                    morse = ".---"
+                case "K":
+                    morse = "-.-"
+                case "L":
+                    morse = ".-.."
+                case "M":
+                    morse = "--"
+                case "N":
+                    morse = "-."
+                case "O":
+                    morse = "---"
+                case "P":
+                    morse = ".--."
+                case "Q":
+                    morse = "--.-"
+                case "R":
+                    morse = ".-."
+                case "S":
+                    morse = "..."
+                case "T":
+                    morse = "-"
+                case "U":
+                    morse = "..-"
+                case "V":
+                    morse = "...-"
+                case "W":
+                    morse = ".--"
+                case "X":
+                    morse = "-..-"
+                case "Y":
+                    morse = "-.--"
+                case "Z":
+                    morse = "--.."
+                case _:
+                    morse = "?"
+
+            encoded_letters.append(morse)
+
+        # Join letters in a word with a space
+        encoded_words.append(" ".join(encoded_letters))
+
+    # Join distinct words with a forward slash
+    return " / ".join(encoded_words)
 
 
-
-
-      
+result = decode_morse("sos")
+print(result)
